@@ -1,5 +1,5 @@
 module.exports = {
-    ini(app) {
+    init(app) {
         const staticRoutes = require('../routes/static');
         app.use(staticRoutes);
     }

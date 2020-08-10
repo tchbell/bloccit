@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "test": "set NODE_ENV=test&& jasmine",
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "jasmine": "^3.6.1",
+    "request": "^2.88.2"
+  }
+
+}
